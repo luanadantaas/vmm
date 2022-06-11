@@ -3,10 +3,10 @@
 > A dinamica consiste em ler um arquicvo txt com endereços e simular uma pagetable, tlb, memoria fisica, entre outras ferramentas.
 > Essa implementação foi feita na linguagem C
 
-##main.c
+## main.c
 > Arquivo em que toda a implementação se encontra
 
-##makefile
+## makefile
 > fundamental para a compilação do código
 > $make
 >compila o codigo e cria o binario
@@ -15,17 +15,17 @@
 >$make run
 >executa o codigo
 
-##addresses.txt
+## addresses.txt
 >arquivo lido pelo código, o qual contém vários endereços virtuais
 
-##BACKING_STORE.bin
+## BACKING_STORE.bin
 >arquivo binário que será lido para coletar os diversos offsets das paginas trabalhadas
 
-##correct.txt
+## correct.txt
 > arquivo que será criado pelo codigo com informações(endereço virtual, endereço fisico, valor)de acordo com os endereços lidos
 > no fim do arquivo mostra a quantidade de pagefaults e de tlbhits que ocorreram ao longo do processo
 
-#Formato para executar o código
+# Formato para executar o código
 > ./vm arquivo.txt algoritmo algoritmo
 > sendo arquivo.txt o arquivo a ser lido, algoritmo um dos algoritmos de substituição (fifo / lru) 
 
