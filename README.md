@@ -1,6 +1,6 @@
 # VIRTUAL MEMORY
 > A atividade passada na cadeira de Infraestrutura de sofware se baseia na simulação de uma memoria virtual abordada no livro Operating System Concepts p-51
-> A dinamica consiste em ler um arquicvo txt com endereços e simular uma pagetable, tlb, memoria fisica, entre outras ferramentas.
+> A dinamica consiste em ler um arquivo txt com endereços e simular uma pagetable, tlb, memoria fisica, entre outras ferramentas.
 > Essa implementação foi feita na linguagem C
 
 ## main.c
